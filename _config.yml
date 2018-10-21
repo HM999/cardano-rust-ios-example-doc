@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: Calling Cardano-Rust from iOS App
+github:
+  is_project_page: false
