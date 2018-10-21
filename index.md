@@ -75,19 +75,19 @@ And we need a bridging header; again File / New / File / Header / cardano_funcs_
 #import "cardano_funcs.h"
 ```
 
-Under the project Build Settings 
+Under the project Build Settings: 
 
-1. Set Objective-C Bridging Header for debug and release to:
+i. Set Objective-C Bridging Header for debug and release to:
 
 ```
 $(PROJECT_DIR)/cardano_funcs_bridge.h
 ```
 
-2. To Library Search Paths, add the directory containing the libcardano_funcs.a
+ii. To Library Search Paths, add the directory containing the libcardano_funcs.a
 
-3. Under Build Options, set Enable Bitcode = No.
+iii. Under Build Options, set Enable Bitcode = No.
 
-4. Optional: set deployment device orientation: Portrait only.
+iv. Optional: set deployment device orientation: Portrait only.
 
 NB: If you get a generate-pch error, that means it can't find the bridging header. Look at the command it spews out, see where it is looking for the header – amend entry accordingly, or move files around. If Linking fails, it means it can't find the libcardano_funcs.a
 
