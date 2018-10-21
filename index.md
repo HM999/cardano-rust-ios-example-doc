@@ -4,7 +4,7 @@ Following on from the first post about [Calling Cardano-Rust from C code](https:
 
 And similar to the previous post about [Calling Cardano-Rust from Android App](https://hm999.github.io/cardano-rust-android-example-doc/).
 
-We will today invoke the Cardano-Rust functions from an iOS app.
+Today we will invoke the Cardano-Rust functions from an iOS app.
 
 Source code discussed below is [here](https://github.com/HM999/cardano-rust-ios-example), but with binaries and local config omitted.
 
