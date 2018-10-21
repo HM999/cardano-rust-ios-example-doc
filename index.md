@@ -189,10 +189,10 @@ class ViewController: UIViewController {
 
 At this point the project looks like this:
 
-[Cardano-Rust iOS Project](https://raw.githubusercontent.com/HM999/cardano-rust-ios-example-doc/master/images/cardano-rust-ios-project.png)
+![Cardano-Rust iOS Project](https://raw.githubusercontent.com/HM999/cardano-rust-ios-example-doc/master/images/cardano-rust-ios-project.png)
 
 Everything should build without error. I attach an iPhone by USB cable and run the app on it:
 
-[Cardano-Rust iOS App](https://raw.githubusercontent.com/HM999/cardano-rust-ios-example-doc/master/images/cardano-rust-ios-app.jpg)
+![Cardano-Rust iOS App](https://raw.githubusercontent.com/HM999/cardano-rust-ios-example-doc/master/images/cardano-rust-ios-app.jpg)
 
 Source code is [here](https://github.com/HM999/cardano-rust-ios-example), but with binaries and local config omitted.
